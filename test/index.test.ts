@@ -104,6 +104,11 @@ describe('parseUrl', () => {
     expect(projectId).toBe('nuxt-starter-k7spa3r4')
   })
 
+  it('handles URLs with tilde', () => {
+    const projectId = parseUrl('https://stackblitz.com/~/edit/nuxt-starter-k7spa3r4')
+    expect(projectId).toBe('nuxt-starter-k7spa3r4')
+  })
+
   it('throws error for invalid URL format', () => {
     expect(() => parseUrl('https://example.com/invalid')).toThrow('Invalid StackBlitz URL')
   })

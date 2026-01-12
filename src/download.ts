@@ -381,10 +381,14 @@ export async function downloadToBlob(options: Omit<DownloadOptions, 'outputPath'
  *
  * const projectId = parseUrl('https://stackblitz.com/edit/nuxt-starter-k7spa3r4')
  * // => 'nuxt-starter-k7spa3r4'
+ *
+ * // Also works with tilde URLs
+ * const projectId2 = parseUrl('https://stackblitz.com/~/edit/nuxt-starter-k7spa3r4')
+ * // => 'nuxt-starter-k7spa3r4'
  * ```
  */
 export function parseUrl(url: string): string {
-  const match = url.match(/stackblitz\.com\/edit\/([^/?#]+)/)
+  const match = url.match(/stackblitz\.com\/(?:~\/)?edit\/([^/?#]+)/)
 
   if (!match || !match[1]) {
     throw new Error(`Invalid StackBlitz URL: ${url}`)
