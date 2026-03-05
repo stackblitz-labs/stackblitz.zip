@@ -220,9 +220,9 @@ Published under [MIT License](./LICENCE).
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/stackblitz-zip?style=flat-square
-[npm-version-href]: https://npmjs.com/package/stackblitz-zip
-[npm-downloads-src]: https://img.shields.io/npm/dm/stackblitz-zip?style=flat-square
+[npm-version-src]: https://npmx.dev/api/registry/badge/version/stackblitz-zip
+[npm-version-href]: https://npmx.dev/package/stackblitz-zip
+[npm-downloads-src]: https://npmx.dev/api/registry/badge/downloads/stackblitz-zip
 [npm-downloads-href]: https://npm.chart.dev/stackblitz-zip
 [github-actions-src]: https://img.shields.io/github/actions/workflow/status/stackblitz-labs/stackblitz.zip/ci.yml?branch=main&style=flat-square
 [github-actions-href]: https://github.com/stackblitz-labs/stackblitz.zip/actions?query=workflow%3Aci
