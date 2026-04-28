@@ -60,9 +60,6 @@
     "unzipit": "^1.4.3",
     "vitest": "latest"
   },
-  "resolutions": {
-    "stackblitz-zip": "link:."
-  },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   },
