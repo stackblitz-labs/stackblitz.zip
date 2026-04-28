@@ -3,4 +3,4 @@ packages:
   - playground
 
 overrides:
-  stackblitz-zip: "link:."
+  stackblitz-zip: 'link:.'
