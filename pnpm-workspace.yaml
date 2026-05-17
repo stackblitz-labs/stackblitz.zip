@@ -2,5 +2,10 @@ packages:
   - app
   - playground
 
+allowBuilds:
+  contextify: false
+  esbuild: false
+  simple-git-hooks: true
+
 overrides:
   stackblitz-zip: 'link:.'
