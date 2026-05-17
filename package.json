@@ -2,7 +2,7 @@
   "name": "stackblitz-zip",
   "type": "module",
   "version": "0.0.8",
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "pnpm@11.1.2",
   "description": "Download StackBlitz projects programmatically",
   "license": "MIT",
   "repository": "stackblitz-labs/stackblitz.zip",
