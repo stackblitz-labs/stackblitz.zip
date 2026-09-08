@@ -8,4 +8,4 @@ allowBuilds:
   simple-git-hooks: true
 
 overrides:
-  stackblitz-zip: 'link:.'
+  stackblitz-zip: 'workspace:*'
